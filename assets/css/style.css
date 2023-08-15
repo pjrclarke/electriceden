@@ -1,0 +1,86 @@
+body {
+    font-family: 'kulim Park', sans-serif;
+}
+.parallax-section {
+    background-image: url("assets\images\matthew-henry-yETqkLnhsUI-unsplash (1).jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar {
+    background-color: rgba(0,0,0,0);
+}
+.nav-item {
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: black !important;
+}
+
+.content-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    
+  }
+
+  .content-container p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    font-family: "kulim park", sans-serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+  }
+
+  .content-container a {
+    color: #7f7f7f; /* Bootstrap primary color */
+    transition: color 0.3s ease;
+  }
+
+  .content-container a:hover {
+    color: #565454; /* Darker shade on hover */
+  }
+  .social-icon,
+  .spotify-icon,
+  .apple-icon {
+    color: #7f7f7f;
+  }
+  .social-icon:hover,
+  .spotify-icon:hover,
+  .apple-icon:hover {
+    color: #565454; /* Darker shade on hover */
+  }
+
+  .rounded-img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+section p {
+    font-family: "kulim park", sans-serif;
+    font-size: 20px;
+}
+
+/* live dates */
+.event-row {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center; /* Center-align text */
+}
+.event-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contactForm {
+  font-family: "lato", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #565454;
+}
+.form-control {
+  font-family: "lato", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #565454;
+}
