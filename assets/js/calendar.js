@@ -18,7 +18,7 @@ $.ajax({
 
       if (eventDateTime > currentDate) {
         const eventRow = document.createElement('div');
-        eventRow.className = 'row event-row text-center';
+        eventRow.className = 'row event-row';
 
         const eventCol = document.createElement('div');
         eventCol.className = 'col-md-12 event-col';

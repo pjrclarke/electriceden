@@ -63,7 +63,6 @@ section p {
 .event-row {
   margin-bottom: 20px;
   padding: 10px;
-  text-align: center; /* Center-align text */
 }
 .event-col {
   display: flex;
