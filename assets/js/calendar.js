@@ -1,3 +1,4 @@
+
 $.ajax({
   url: `https://www.googleapis.com/calendar/v3/calendars/electricedenband@gmail.com/events?key=AIzaSyD0ncwcGOGES-m5Xe3oN_pVHZ-RavRC8gA`,
   method: 'GET',
@@ -28,6 +29,7 @@ $.ajax({
 
         eventCol.innerHTML = `
           <p>${eventDate} | ${eventSummary} | ${eventLocation} </p>
+          <hr>
         `;
 
         eventRow.appendChild(eventCol);
