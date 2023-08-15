@@ -30,7 +30,7 @@ $.ajax({
         const eventLocation = event.location.toUpperCase();
 
         eventCol.innerHTML = `
-          <p>${eventDate} | ${eventSummary} | ${eventLocation} | ${event.description}</p>
+          <p>${eventDate} | ${eventSummary} | ${eventLocation} </p>
         `;
 
         eventRow.appendChild(eventCol);

@@ -1,8 +1,10 @@
 function sendMail(contactForm) {
     emailjs.send("service_ychndgu", "template_qcpo4di", {
-        "from_name": contactForm.fullName.value,
-        "message": contactForm.message.value,
-        "from_email": contactForm.email.value
+       "from_name": contactForm.fullName.value,
+       "message": contactForm.message.value,
+       "from_email": contactForm.email.value,
+       "event_type": contactForm.eventType.value,
+       "event_date": contactForm.eventDate.value
     })
     .then(function(response) {
         console.log("Email sent successfully:", response);
