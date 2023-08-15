@@ -1,6 +1,3 @@
-const API_KEY = 'AIzaSyD0ncwcGOGES-m5Xe3oN_pVHZ-RavRC8gA'; // Replace with your actual API key
-const CALENDAR_ID = 'electricedenband@gmail.com'; // Replace with your Gmail address
-
 $.ajax({
   url: `https://www.googleapis.com/calendar/v3/calendars/electricedenband@gmail.com/events?key=AIzaSyD0ncwcGOGES-m5Xe3oN_pVHZ-RavRC8gA`,
   method: 'GET',
