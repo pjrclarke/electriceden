@@ -20,15 +20,17 @@ body {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     padding: 20px;
+    margin: 20px;
     
   }
 
   .content-container p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin-bottom: 1.5rem;
     font-family: "kulim park", sans-serif;
     font-weight: 900;
     letter-spacing: 5px;
+    
   }
 
   .content-container a {
@@ -75,4 +77,9 @@ section p {
   font-family: "kulim park", sans-serif;
   font-weight: 700;
   color: #565454;
+}
+
+p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
