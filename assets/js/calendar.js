@@ -28,7 +28,7 @@ $.ajax({
         const eventLocation = event.location.toUpperCase();
 
         eventCol.innerHTML = `
-          <p>${eventDate} | ${eventSummary} | ${eventLocation} </p>
+          <p>${eventDate} <br> ${eventSummary} <br> ${eventLocation} </p>
           <hr>
         `;
 
