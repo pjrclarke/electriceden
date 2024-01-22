@@ -63,10 +63,6 @@ section p {
 
 /* live dates */
 
-.row {
-  display: block;
-}
-
 .event-row {
   margin-bottom: 20px;
   padding: 10px;
