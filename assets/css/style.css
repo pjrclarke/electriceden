@@ -84,3 +84,9 @@ p {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
+
+.contact-button {
+  background-color: #565454;
+  color: #ffffff;
+  border-radius: 10px;
+}
