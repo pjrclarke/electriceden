@@ -42,7 +42,7 @@ $.ajax({
       eventsContainer.innerHTML = `
         <div class="no-events">
           <p>No upcoming events at the moment.</p>
-          <a href="/contact-us" class="btn contact-button">Contact Us</a>
+          <a href="/contact.html" class="btn contact-button">Contact Us</a>
         </div>
       `;
     }
